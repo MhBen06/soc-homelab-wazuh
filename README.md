@@ -53,3 +53,8 @@ Ces attaques sont détectées par Wazuh et visibles dans le dashboard.
 - Surveiller les logs
 - Détecter des attaques
 - Pratiquer l’analyse SOC
+
+## Architecture du laboratoire
+
+![Topology](soc-lab-network-topology.png)
+
