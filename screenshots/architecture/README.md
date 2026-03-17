@@ -29,3 +29,7 @@ Cette architecture permet de simuler un environnement d’entreprise pour :
 - diagramme de l’architecture
 - vue réseau du lab
 - machines virtuelles du SOC homelab
+
+- ## Architecture du laboratoire
+
+![Topology](network-topology.png)
