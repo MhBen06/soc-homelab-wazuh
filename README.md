@@ -56,5 +56,5 @@ Ces attaques sont détectées par Wazuh et visibles dans le dashboard.
 
 ## Architecture du laboratoire
 
-![Topology](soc-lab-network-topology.png)
+![Topology](architecture/network-topology.png)
 
