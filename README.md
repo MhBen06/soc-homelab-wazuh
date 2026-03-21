@@ -55,7 +55,7 @@ Wazuh a détecté :
 
 ### Preuve
 
-![Bruteforce](screenshots/ssh_brute_force_detection.png)
+![Bruteforce](screenshots/ssh_brute_force%20detection.png)
 
 ### Analyse
 
