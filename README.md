@@ -31,7 +31,7 @@ Le lab est hébergé sur VMware ESXi et contient les machines suivantes :
 
 ## Wazuh Dashboard
 
-![Dashboard](screenshots/architecture/wazuh-dashboard.png)
+![Dashboard](wazuh-dashboard.png)
 
 ---
 
