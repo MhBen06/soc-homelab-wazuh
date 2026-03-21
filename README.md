@@ -39,28 +39,6 @@ Le lab est hébergé sur VMware ESXi et contient les machines suivantes :
 
 ### Scénario
 
-Une attaque brute force SSH a été simulée sur un serveur Linux afin de tester la détection du SIEM Wazuh.
-
-### Détection
-
-Wazuh a détecté :
-
-- plusieurs tentatives de connexion échouées
-- des utilisateurs invalides
-- une activité anormale
-
-### MITRE ATT&CK
-
-- T1110 – Brute Force
-
-### Preuve
-
-![Bruteforce](screenshots/ssh_brute_force%20detection.png)
-
-## Simulation d’attaque – SSH Brute Force
-
-### Scénario
-
 Une attaque de type brute force a été simulée contre un serveur Linux via SSH.
 
 L’objectif était de tester la capacité du SIEM Wazuh à détecter des tentatives de connexion répétées.
@@ -118,6 +96,5 @@ Le SIEM Wazuh permet :
 - l’analyse des comportements suspects
 
 Cette simulation valide l’efficacité du SOC homelab.
-
 
 - Investigation SOC
