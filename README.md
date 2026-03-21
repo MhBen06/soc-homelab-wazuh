@@ -57,22 +57,67 @@ Wazuh a détecté :
 
 ![Bruteforce](screenshots/ssh_brute_force%20detection.png)
 
-### Analyse
+## Simulation d’attaque – SSH Brute Force
 
-Les logs montrent des tentatives répétées de connexion SSH.
+### Scénario
 
-Wazuh a correctement généré des alertes correspondant à une attaque brute force.
+Une attaque de type brute force a été simulée contre un serveur Linux via SSH.
 
-### Conclusion
-
-Le SIEM permet de détecter efficacement ce type d’attaque en temps réel.
+L’objectif était de tester la capacité du SIEM Wazuh à détecter des tentatives de connexion répétées.
 
 ---
 
-## Compétences démontrées
+### Détection
 
-- Déploiement SIEM (Wazuh)
-- Analyse de logs
-- Détection d’attaques
-- Utilisation MITRE ATT&CK
+Wazuh a généré plusieurs alertes indiquant :
+
+- des tentatives de connexion échouées
+- des utilisateurs invalides
+- une activité anormale sur le service SSH
+
+---
+
+### MITRE ATT&CK
+
+- T1110 – Brute Force
+
+---
+
+### Preuve
+
+![Bruteforce](screenshots/ssh_brute_force_detection.png)
+
+---
+
+### Analyse SOC
+
+En analysant les logs, on observe :
+
+- une répétition rapide des tentatives de connexion
+- plusieurs identifiants incorrects
+- une activité concentrée sur un court intervalle de temps
+
+Ce comportement est typique d’une attaque brute force visant à compromettre un compte utilisateur.
+
+---
+
+### Impact potentiel
+
+- compromission d’un compte
+- accès non autorisé au système
+- élévation de privilèges possible
+
+---
+
+### Conclusion
+
+Le SIEM Wazuh permet :
+
+- la détection en temps réel
+- la corrélation des événements
+- l’analyse des comportements suspects
+
+Cette simulation valide l’efficacité du SOC homelab.
+
+
 - Investigation SOC
